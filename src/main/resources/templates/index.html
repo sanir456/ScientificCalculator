@@ -11,6 +11,14 @@
 </head>
 
 <script>
+
+
+    function cls(){
+        console.log("in clear")
+        document.getElementById("input1").value = "";
+        document.getElementById("input2").value = "";
+        document.getElementById("result").value = "";
+    }
     async function power() {
         const Input1 = document.getElementById("input1").value;
         const Input2 = document.getElementById("input2").value;
@@ -30,11 +38,7 @@
             document.getElementById("result").value = data
         });
 
-        // console.log(response)
-        // console.log(response.text());
-        // console.log(response.text());
 
-        // document.getElementById("result").value = parseInt(input1) * parseInt(input2);
     }
 
     async function sqrt() {
@@ -161,6 +165,14 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-12 p-2">
+            <button name="clear" id="clear"  onclick="cls()">
+                clear
+            </button>
+        </div>
+
+    </div>
 </div>
 </body>
 </html>
