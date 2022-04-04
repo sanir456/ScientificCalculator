@@ -16,7 +16,7 @@
         const Input2 = document.getElementById("input2").value;
         console.log(Input1);
         console.log(Input2);
-        let response = await fetch('http://localhost:8083/welcome', {
+        fetch('http://localhost:8083/power', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
@@ -25,9 +25,63 @@
                 input1:Input1,
                 input2:Input2
             })
-        })
-        console.log(response);
+        }).then(response => response.json())
+        .then((data) => {
+            document.getElementById("result").value = data
+        });
+
+        // console.log(response)
+        // console.log(response.text());
+        // console.log(response.text());
+
         // document.getElementById("result").value = parseInt(input1) * parseInt(input2);
+    }
+
+    async function sqrt() {
+        const Input1 = document.getElementById("input1").value;
+        fetch('http://localhost:8083/sqrt', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+            body: JSON.stringify({
+                input1:Input1,
+
+            })
+        }).then(response => response.json())
+            .then((data) => {
+                document.getElementById("result").value = data;
+            });
+    }
+    async function log() {
+        const Input1 = document.getElementById("input1").value;
+        fetch('http://localhost:8083/log', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+            body: JSON.stringify({
+                input1:Input1,
+            })
+        }).then(response => response.json())
+            .then((data) => {
+                document.getElementById("result").value = data;
+            });
+    }
+    async function fact() {
+        const Input1 = document.getElementById("input1").value;
+        fetch('http://localhost:8083/fact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+            body: JSON.stringify({
+                input1:Input1,
+            })
+        }).then(response => response.json())
+            .then((data) => {
+                document.getElementById("result").value = data;
+            });
     }
 </script>
 
