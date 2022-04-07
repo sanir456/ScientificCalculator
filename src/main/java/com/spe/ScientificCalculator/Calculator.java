@@ -1,5 +1,6 @@
 package com.spe.ScientificCalculator;
 
+import org.apache.logging.log4j.LogManager;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,9 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.apache.logging.log4j.Logger;
+
 
 @RestController
 public class Calculator {
+    private static final Logger logger =  LogManager.getLogger(Calculator.class);
+
     @RequestMapping(value = "/power",method = RequestMethod.POST)
     public double power(@RequestBody Map<String,Object> payload){
         double res;
@@ -25,7 +30,9 @@ public class Calculator {
     public double sqrt(@RequestBody Map<String,Object> payload){
         double res;
         double input1 = Double.parseDouble((String) payload.get("input1"));
+        logger.info("[SQRT] - " + input1);
         res = Math.sqrt(input1);
+        logger.info("[RESULT] - " + res);
         return res  ;
     }
 
