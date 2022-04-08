@@ -1,0 +1,30 @@
+2022-04-08 01:15:12,175 INFO c.s.S.ScientificCalculatorApplication [main] Starting ScientificCalculatorApplication using Java 11.0.13 on sani-Vostro-15-3568 with PID 19894 (/home/sani/Term2/SPE/ScientificCalculator/target/classes started by sani in /home/sani/Term2/SPE/ScientificCalculator)
+2022-04-08 01:15:12,190 DEBUG c.s.S.ScientificCalculatorApplication [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 01:15:12,193 INFO c.s.S.ScientificCalculatorApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-08 01:15:13,610 INFO c.s.S.ScientificCalculatorApplication [main] Started ScientificCalculatorApplication in 2.09 seconds (JVM running for 3.613)
+2022-04-08 01:15:19,019 INFO c.s.S.Calculator [main] [INPUT] - 36.0
+2022-04-08 01:15:19,026 INFO c.s.S.Calculator [main] [RESULT] - 6.0
+2022-04-08 01:15:19,026 INFO c.s.S.Calculator [main] [INPUT] - 12.25
+2022-04-08 01:15:19,027 INFO c.s.S.Calculator [main] [RESULT] - 3.5
+2022-04-08 01:15:19,028 INFO c.s.S.Calculator [main] [INPUT] - 36.0
+2022-04-08 01:15:19,029 INFO c.s.S.Calculator [main] [RESULT] - 6.0
+2022-04-08 01:15:19,029 INFO c.s.S.Calculator [main] [INPUT] - 12.25
+2022-04-08 01:15:19,029 INFO c.s.S.Calculator [main] [RESULT] - 3.5
+2022-04-08 01:19:15,823 INFO c.s.S.Calculator [http-nio-8083-exec-4] [INPUT] - 2435.0
+2022-04-08 01:19:15,824 INFO c.s.S.Calculator [http-nio-8083-exec-4] [RESULT] - 49.34571916590131
+2022-04-08 01:19:34,358 INFO c.s.S.Calculator [http-nio-8083-exec-5] [INPUT] - 2.4354567E7
+2022-04-08 01:19:34,360 INFO c.s.S.Calculator [http-nio-8083-exec-5] [RESULT] - 4935.034650334281
+2022-04-08 01:21:24,322 INFO c.s.S.ScientificCalculatorApplication [main] Starting ScientificCalculatorApplication using Java 11.0.13 on sani-Vostro-15-3568 with PID 20251 (/home/sani/Term2/SPE/ScientificCalculator/target/classes started by sani in /home/sani/Term2/SPE/ScientificCalculator)
+2022-04-08 01:21:24,333 DEBUG c.s.S.ScientificCalculatorApplication [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 01:21:24,335 INFO c.s.S.ScientificCalculatorApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-08 01:21:25,737 INFO c.s.S.ScientificCalculatorApplication [main] Started ScientificCalculatorApplication in 1.906 seconds (JVM running for 3.433)
+2022-04-08 01:25:35,578 INFO c.s.S.ScientificCalculatorApplication [main] Starting ScientificCalculatorApplication using Java 11.0.13 on sani-Vostro-15-3568 with PID 20434 (/home/sani/Term2/SPE/ScientificCalculator/target/classes started by sani in /home/sani/Term2/SPE/ScientificCalculator)
+2022-04-08 01:25:35,595 DEBUG c.s.S.ScientificCalculatorApplication [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 01:25:35,599 INFO c.s.S.ScientificCalculatorApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-08 01:25:36,996 INFO c.s.S.ScientificCalculatorApplication [main] Started ScientificCalculatorApplication in 1.892 seconds (JVM running for 3.25)
+2022-04-08 01:30:32,930 INFO c.s.S.Calculator [http-nio-8083-exec-4] [SQRT] - 2325.0
+2022-04-08 01:30:32,931 INFO c.s.S.Calculator [http-nio-8083-exec-4] [RESULT] - 48.218253804964775
+2022-04-08 14:09:11,122 INFO c.s.S.ScientificCalculatorApplication [main] Starting ScientificCalculatorApplication using Java 11.0.13 on sani-Vostro-15-3568 with PID 38080 (/home/sani/Term2/SPE/ScientificCalculator/target/classes started by sani in /home/sani/Term2/SPE/ScientificCalculator)
+2022-04-08 14:09:11,191 DEBUG c.s.S.ScientificCalculatorApplication [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 14:09:11,193 INFO c.s.S.ScientificCalculatorApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-08 14:09:15,155 INFO c.s.S.ScientificCalculatorApplication [main] Started ScientificCalculatorApplication in 6.421 seconds (JVM running for 18.136)
