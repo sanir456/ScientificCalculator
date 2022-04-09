@@ -1,0 +1,16 @@
+2022-04-09 14:29:48,249 INFO c.s.S.Calculator [http-nio-8083-exec-5] [LOG] - 10.0
+2022-04-09 14:29:48,252 INFO c.s.S.Calculator [http-nio-8083-exec-5] [RESULT] - 2.302585092994046
+2022-04-09 14:29:52,629 INFO c.s.S.Calculator [http-nio-8083-exec-6] [LOG] - 2.71
+2022-04-09 14:29:52,630 INFO c.s.S.Calculator [http-nio-8083-exec-6] [RESULT] - 0.9969486348916096
+2022-04-09 14:29:58,254 INFO c.s.S.Calculator [http-nio-8083-exec-7] [SQRT] - 100.0
+2022-04-09 14:29:58,256 INFO c.s.S.Calculator [http-nio-8083-exec-7] [RESULT] - 10.0
+2022-04-09 14:30:01,236 INFO c.s.S.Calculator [http-nio-8083-exec-8] [SQRT] - 10.0
+2022-04-09 14:30:01,237 INFO c.s.S.Calculator [http-nio-8083-exec-8] [RESULT] - 3.1622776601683795
+2022-04-09 14:30:09,375 INFO c.s.S.Calculator [http-nio-8083-exec-9] [POWER] - 10.0^2.0
+2022-04-09 14:30:09,424 INFO c.s.S.Calculator [http-nio-8083-exec-9] [RESULT] - 100.0
+2022-04-09 14:30:14,228 INFO c.s.S.Calculator [http-nio-8083-exec-10] [POWER] - 2.0^2.0
+2022-04-09 14:30:14,229 INFO c.s.S.Calculator [http-nio-8083-exec-10] [RESULT] - 4.0
+2022-04-09 14:30:22,943 INFO c.s.S.Calculator [http-nio-8083-exec-1] [FACT] - 7.0
+2022-04-09 14:30:22,944 INFO c.s.S.Calculator [http-nio-8083-exec-1] [RESULT] - 5040.0
+2022-04-09 14:30:27,365 INFO c.s.S.Calculator [http-nio-8083-exec-2] [FACT] - 10.0
+2022-04-09 14:30:27,366 INFO c.s.S.Calculator [http-nio-8083-exec-2] [RESULT] - 3628800.0
